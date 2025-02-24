@@ -35,3 +35,35 @@ section {
   display: flex;
   gap: 30px;
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hero .content h1 {
+  color: #fff;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
+button {
+  background-color: #00adb5;
+  color: #fff;
+  padding: 7px 20px 7px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.designer {
+  color: #00adb5;
+}
+.hero .image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+}
