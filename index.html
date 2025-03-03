@@ -7,9 +7,14 @@
     <!-- HTML Tag -->
     <title>Our Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=send"
+    />
     <!-- Start Tag, content, end tag = HTML Element -->
   </head>
   <body>
+    <!-- This is Hero Section Start -->
     <section>
       <!-- Header Part -->
       <div class="header">
@@ -41,5 +46,83 @@
         </div>
       </div>
     </section>
+    <!-- This is Hero Section End -->
+    <!-- This is About Section Start -->
+    <section class="about">
+      <div class="left-side">
+        <h3 class="title">About <span>Me</span></h3>
+        <p class="description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+          debitis nisi amet molestiae, excepturi quam neque exercitationem
+          voluptate enim maxime. <span class="read-more-btn">Read More</span>
+        </p>
+      </div>
+
+      <div class="right-side">
+        <img
+          class="image"
+          src="https://images.pexels.com/photos/4836103/pexels-photo-4836103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+      </div>
+    </section>
+    <!-- This is About Section End -->
+    <!-- This is Recent Work Start -->
+    <section class="recent-work">
+      <h3 class="title">My Recent <span>works</span></h3>
+      <div class="btn-container">
+        <button class="filter-btn">All</button>
+        <button class="filter-btn">UI</button>
+        <button class="filter-btn">UX</button>
+        <button class="filter-btn">Web Design</button>
+      </div>
+      <div class="image-container">
+        <div class="container-image">
+          <img
+            src="https://images.pexels.com/photos/21826565/pexels-photo-21826565/free-photo-of-branch-with-white-cherry-blossoms.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+        </div>
+        <div class="container-image">
+          <img
+            src="https://images.pexels.com/photos/21826565/pexels-photo-21826565/free-photo-of-branch-with-white-cherry-blossoms.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+        </div>
+        <div class="container-image">
+          <img
+            src="https://images.pexels.com/photos/21826565/pexels-photo-21826565/free-photo-of-branch-with-white-cherry-blossoms.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- This is Recent Work End -->
+    <!-- This is Contact Us Section Start -->
+    <section class="contact-us">
+      <div class="left-side">
+        <h3>Got a project in <span>mind?</span></h3>
+        <img
+          src="https://images.pexels.com/photos/7530775/pexels-photo-7530775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+      </div>
+      <form action="#" class="right-side">
+        <div class="name-email-container">
+          <div class="name">
+            <label>Your Name</label>
+            <input type="text" placeholder="Your Name Please" />
+          </div>
+          <div class="email">
+            <label>You Email</label>
+            <input type="email" placeholder="Your Email" />
+          </div>
+        </div>
+        <div class="message">
+          <label>Message</label>
+          <textarea placeholder="Your Message"></textarea>
+        </div>
+        <button class="send-btn" type="submit">
+          <span>Send Image</span>
+          <span class="material-symbols-outlined"> send </span>
+        </button>
+      </form>
+    </section>
+    <!-- This is Contact Us Section End -->
   </body>
 </html>
